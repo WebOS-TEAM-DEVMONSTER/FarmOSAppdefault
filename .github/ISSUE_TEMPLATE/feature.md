@@ -1,7 +1,7 @@
 ---
-name: Feature 기능 구현하기
-about: 구현한 내용을 작성합니다.
-title: ''
+name: Feature
+about: 구현한 기능의 내용을 작성합니다.
+title: "[FEAT] (이 부분을 지우고 제목을 작성합니다. 예시: [FEAT] 홈 화면 구현)"
 labels: ''
 assignees: ''
 
