@@ -30,27 +30,29 @@ Farm OS 어플리케이션입니다.
 
 1. 로컬 저장소를 생성한다
 
- % git init
+% git init
 
 2. 프로젝트 폴더 내에 있는 모든 변경된 파일 및 폴더를 선택한다
 
- % git add .
+% git add .
 
 3. 2.에서 선택된 폴더 파일을 커밋한다
 
- % git commit -m "**first commit**"  // 쌍따움표는 입력해야하고 first commit 대신 내가 구현한 내용에 대해 간략하게 작성한다. 예시: git commit -m "첫번째 커밋"
+% git commit -m "**first commit**"  
+
+// 쌍따움표는 입력해야하고 first commit 대신 내가 구현한 내용에 대해 간략하게 작성한다. 예시: git commit -m "첫번째 커밋"
 
 4. **(처음 업로드하는 경우에만)** 로컬 저장소와 원격 저장소를 연결한다.
 
- % git remote add origin **주소**
+% git remote add origin **주소**
 
 5. **(처음 업로드 하는 경우에만 사용해야 함)** 깃에다 push 한다.
 
- % git push origin -u **브랜치명(sojung or donghyeon)** 
+% git push origin -u **브랜치명(sojung or donghyeon)** 
 
 6. (처음 업로드 하는것이 아닌 경우) 깃에다 push 한다.
 
- % git push origin **브랜치명(sojung or donghyeon)** 
+% git push origin **브랜치명(sojung or donghyeon)** 
 
 -u 는 로컬 브랜치와 원격 브랜치를 연결한다는 의미다. 연결을 1번만 하면 계속 연결 상태가 유지되며, -u를 2번 이상 사용할 경우, 오히려 추적이 복잡해질 수 있다.
 
@@ -92,19 +94,19 @@ git pull을 하기위해 다음과 같은 과정을 거친다.
 
 1. develop 브랜치로 이동한다.
 
- % git checkout develop
+% git checkout develop
 
 2. git pull을 진행한다.
 
- % git pull origin develop
+% git pull origin develop
 
 3. 다시 개인 브랜치로 이동한다.
 
- % git checkout -
+% git checkout -
 
 4. merge를 실행한다.
 
- % git merge develop
+% git merge develop
 
 
 이제 각자 C, D 파트 개발을 진행하면 된다.
@@ -132,23 +134,23 @@ git pull을 하기위해 다음과 같은 과정을 거친다.
 
 2. develop 브랜치로 이동한다.
 
- % git checkout develop
+% git checkout develop
 
 3. git pull을 진행한다.
 
- % git pull origin develop
+% git pull origin develop
 
 4. 다시 개인 브랜치로 이동한다.
 
- % git checkout -
+% git checkout -
 
 5. merge를 실행한다.
 
- % git merge develop
+% git merge develop
 
 6. 임시 저장소를 삭제한다.
 
- % git stash pop
+% git stash pop
 
 
 1.에서 임시 저장소는 A' 파트를 저장한다.
