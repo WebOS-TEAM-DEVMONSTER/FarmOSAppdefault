@@ -1,5 +1,5 @@
 ---
-name: Refactoring
+name: 03_Refactoring
 about: 코드 구조를 더욱 효율적으로 변경할 일이 있을 때 작성합니다.
 title: "[REFACTOR] (이 부분을 지우고 refactor 내용에 대해 작성합니다)"
 labels: ''
